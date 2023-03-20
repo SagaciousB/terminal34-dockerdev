@@ -6,4 +6,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install git wget curl vim iputils-ping
 
 # Y un pip package
-RUN pip install -U pytest 
+RUN pip install -U pytest numpy
