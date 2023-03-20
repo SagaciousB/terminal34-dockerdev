@@ -1,0 +1,17 @@
+{
+	"name": "Terminal34",
+    "build": { "dockerfile": "Dockerfile" },
+
+    // Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+                "ms-python.python",
+                "VisualStudioExptTeam.vscodeintellicode"
+			]
+		}
+	}
+}
